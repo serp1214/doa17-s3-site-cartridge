@@ -35,7 +35,7 @@ doa17PullCode.with{
   }
   parameters{
     stringParam("S3_BUCKET",doa17BucketName,"AWS S3 Bucket Name")
-    stringParam("AWS_REGION",us-east-1,"AWS Region")
+    stringParam("AWS_REGION","us-east-1","AWS Region")
   }
   wrappers {
     preBuildCleanup()
